@@ -76,17 +76,13 @@ most of the houses sold are single family residential. This confirmed my assumpt
 
      I focused my mixed data neural network in 2 models. The first one was putting images per house and predicting the price based on the images and the text data. For that model, we got result as:
      
-    avg. house price: $586,873.29, std house price: $356,533.20
-    
-    MAPE: 11.88%, std: 8.65%
 
-    The second model we did the same thing but isolating image per category(bedroom, bathroom,living room and front view) and we got the result as:
-    
-    avg. house price: $586,873.29, std house price: $356,533.20
-    
-    MAPE: 8.55%, std: 6.64%
 
-	
+	| **Models** | **MAPE** |
+	| ------------ | ------------ | 
+	| *XGboost Regressor* | *16.84%* |
+	| *Mix data* | *11.88%* | 
+	| *Mix data with categorized images* | *8.55%* | 
 
 
   
